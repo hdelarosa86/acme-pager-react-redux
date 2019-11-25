@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+}
+.myTable{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: scroll;
+    border: 1px solid #868686
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+nav{
+    width: 90%;
+    height: 50px;
+    background-color: #dee2e6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem auto;
+}
+a{
+    padding: .50rem;
+    color: black;
+}
+
+.selected{
+    background-color: rgb(179, 179, 179);
+    border-radius: 50%;
+    color: white;
+}
